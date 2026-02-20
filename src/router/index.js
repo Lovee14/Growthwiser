@@ -25,9 +25,9 @@ const router = createRouter({
       component: () => import('../components/services/loan.vue'),
     },
     {
-      path: '/services/certifications',
-      name: 'certifications',
-      component: () => import('../components/services/certifications.vue'),
+      path: '/services/Certifications',
+      name: 'Certifications',
+      component: () => import('../components/services/Certifications.vue'),
     },
     {
       path: '/services/digital',
