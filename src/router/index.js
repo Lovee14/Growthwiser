@@ -41,8 +41,8 @@ const router = createRouter({
     },
     {
       path: '/services/consulting',
-      name: 'consulting',
-      component: () => import('../components/services/consulting.vue'),
+      name: 'Consulting',
+      component: () => import('../components/services/Consulting.vue'),
     },
   ],
 })
